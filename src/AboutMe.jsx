@@ -12,6 +12,8 @@ import mysql from "./assets/mysql.svg"
 import postgres from "./assets/postgresql.svg"
 import linux from  "./assets/linux.svg"
 import windows from "./assets/windows.svg"
+import vs from "./assets/vs.png";
+import unity from "./assets/unity.png";
 
 function AboutMe(){
     return(
@@ -34,6 +36,8 @@ function AboutMe(){
                     <li><img src={vsCode} alt="VScode" className="w-15 transition-transform duration-300 bounce-animation delay-0" data-aos="fade-right"/></li>
                     <li><img src={git} alt="Git" className="w-15 transition-transform duration-300 bounce-animation delay-1" data-aos="fade-right"/></li>
                     <li><img src={github} alt="Github" className="w-15 transition-transform duration-300 bounce-animation delay-2 git-hub" data-aos="fade-right"/></li>
+                    <li><img src={vs} alt="Github" className="w-15 transition-transform duration-300 bounce-animation delay-3" data-aos="fade-right"/></li>
+                    <li><img src={unity} alt="Github" className="w-15 transition-transform duration-300 bounce-animation delay-4" data-aos="fade-right"/></li>
                 </ul>
                 <span className="font-semibold text-lg" data-aos="fade-up">Frameworks: </span>
                 <ul className="flex items-center gap-5">
