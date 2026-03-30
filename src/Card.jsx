@@ -9,7 +9,8 @@ function Card(props){
                 <section className="flex flex-col gap-2">
                     <p>{props.description}</p>
                     <section className="flex gap-2 justify-center ">
-                        <a href={props.link} className="border rounded p-2 hover:bg-blue-400 hover:text-white active:bg-blue-400 active:text-white btn-countdown" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        <a href={props.link} className={`border rounded p-2 hover:bg-blue-400 hover:text-white active:bg-blue-400 active:text-white btn-countdown ${props.displayLink}`} target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        <a href={props.overview} className={`border rounded p-2 hover:bg-blue-400 hover:text-white active:bg-blue-400 active:text-white btn-countdown ${props.projectOverView}`} target="_blank" rel="noopener noreferrer">Project Overview</a>
                         <a href={props.gitHub} target="_blank" rel="noopener noreferrer" className={`border rounded p-2 flex items-center gap-2 ${props.displayGithub} btn-countdown git-hub-btn`}>View on GitHub <img src={gitHubIcon} alt="GitHub Icon" className="w-5 inline-block git-hub" /></a>
                     </section>
                 </section>
