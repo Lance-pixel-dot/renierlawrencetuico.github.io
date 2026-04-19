@@ -47,6 +47,15 @@ button, a{
 .delay-4 {
   animation-delay: 0.8s;
 }
+.delay-5 {
+  animation-delay: 1.0s;
+}
+.delay-6 {
+  animation-delay: 1.2s;
+}
+.delay-7 {
+  animation-delay: 1.4s;
+}
 
 .button-85 {
   padding: 0.6em 2em;
